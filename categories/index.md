@@ -1,5 +1,5 @@
 ---
-title: 分类
+title: 카테고리
 layout: page
 ---
 
