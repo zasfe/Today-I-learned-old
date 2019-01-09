@@ -1,7 +1,7 @@
 title: Zasfe's TIL (Today-I-learned)
 email: myseit@gmail.com
 description: aaa
-baseurl: '/Today-I-learned'
+url: '/Today-I-learned'
 timezone: Asia/Seoul 
 repository: zasfe/Today-I-learned
 permalink: /:title/
