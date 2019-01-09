@@ -1,11 +1,12 @@
+# Site settings
+title: Zasfe's Today-I-learned
+email: myseit@gmail.com
+description: "하루하루가 모여 미래를 만듭니다."
 permalink: /:title/
 url: http://zasfe.github.io
 baseurl: /Today-I-learned
 name: "TIL (Today-I-learned)"
-title: Today-I-learned
-author: lizhihao
-qq: 312084121
-email: myseit@gmail.com
+author: zasfe
 github: zasfe
 highlighter: rouge
 safe: true
