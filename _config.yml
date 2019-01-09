@@ -1,7 +1,7 @@
 permalink: /:title/
 url: http://zasfe.github.io
 baseurl: /Today-I-learned
-name: Web Technology
+name: "TIL (Today-I-learned)"
 title: IT Blog
 author: lizhihao
 qq: 312084121
