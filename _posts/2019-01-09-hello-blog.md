@@ -5,6 +5,7 @@ layout: post
 title: 오늘부터 시작합니다.
 categories:
 - 일기
+tags: 블로그
 ---
 
 
