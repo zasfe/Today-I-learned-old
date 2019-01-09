@@ -1,16 +1,22 @@
-# Site settings
-title: "Zasfe's TIL (Today-I-learned)"
-email: myseit@gmail.com
-url: "http://zasfe.github.io"
+# SITE CONFIGURATION
 baseurl: "/Today-I-learned"
+url: "https://zasfe.github.io"
+title: "Zasfe's TIL (Today-I-learned)"
+description: "A website with blog posts and pages" # used by search engines
+email: myseit@gmail.com
 name: "Zasfe's TIL (Today-I-learned)"
 author: zasfe
 github: zasfe
 about: "just a software enginer of web . 
 I love it ."
 permalink: /:title/
+
+safe: true
+
+# PAGINATION
+paginate: 20
+
+# BUILD SETTINGS
 highlighter: rouge
 kramdown:
   input: GFM
-safe: true
-paginate: 20
