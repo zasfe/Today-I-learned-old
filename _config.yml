@@ -1,10 +1,10 @@
 permalink: /:title/
 url: ''
-name: Today-I-learned
+name: 'TIL (Today-I-learned)'
 author: zasfe
 email: myseit@gmail.com
 github: zasfe
 highlighter: rouge
 safe: true
 paginate: 20
-about: '오늘 새로 배운 것을 기록합니다.'
+about: ''
