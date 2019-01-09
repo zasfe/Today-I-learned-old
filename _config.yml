@@ -1,7 +1,6 @@
 # Site settings
 title: "Zasfe's TIL (Today-I-learned)"
 email: myseit@gmail.com
-description: "하루하루가 모여 미래를 만듭니다."
 url: "http://zasfe.github.io"
 baseurl: "/Today-I-learned"
 name: "Zasfe's TIL (Today-I-learned)"
