@@ -1,10 +1,19 @@
+title: Zasfe's TIL (Today-I-learned)
+email: myseit@gmail.com
+description: |
+  하루하루가 모여 미래를 만든다고 믿습니다.
+baseurl: '/Today-I-learned'
+timezone: Asia/Seoul 
+repository: zasfe/Today-I-learned
 permalink: /:title/
-url: '/Today-I-learned'
 name: 'TIL (Today-I-learned)'
 author: zasfe
-email: myseit@gmail.com
 github: zasfe
 highlighter: rouge
 safe: true
 paginate: 20
 about: ''
+google_analytics:
+  ua: 'UA-00000000-1'
+github_url:
+  username: zasfe
