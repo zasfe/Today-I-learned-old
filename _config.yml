@@ -1,6 +1,8 @@
 permalink: /:title/
-url: '/Today-I-learned'
+url: http://zasfe.github.io
+baseurl: /Today-I-learned
 name: Web Technology
+title: IT Blog
 author: lizhihao
 qq: 312084121
 email: li_zhihao@sina.com
