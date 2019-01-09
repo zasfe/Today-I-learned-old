@@ -1,14 +1,14 @@
 permalink: /:title/
 url: '/Today-I-learned'
-name: TIL (Today-I-learned)
-author: zasfe
-email: myseit@gmail.com
-github: zasfe
+name: Web Technology
+author: lizhihao
+qq: 312084121
+email: li_zhihao@sina.com
+duoshuo: web
+weibo: lizhihao666
+github: lizhihao
 highlighter: rouge
 safe: true
 paginate: 20
-about: ''
-google_analytics:
-  ua: 'UA-00000000-1'
-github_url:
-  username: zasfe
+about: "just a software enginer of web . 
+I love it ."
