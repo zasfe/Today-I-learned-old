@@ -4,12 +4,12 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="author" content="{{ site.author }}" />
 		<title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
-		<link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-		<link rel="shortcut icon" href="/media/favicon.ico" />
-		<link rel="stylesheet" href="/media/css/style.css" />
-		<link rel="stylesheet" href="/media/css/highlight.css" />
-		<script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
-		<script type="text/javascript" src="/media/js/outliner.js"></script>
+		<link href="{{ site.baseurl }}/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+		<link rel="shortcut icon" href="{{ site.baseurl }}/media/favicon.ico" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/media/css/style.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/media/css/highlight.css" />
+		<script type="text/javascript" src="{{ site.baseurl }}/media/js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/media/js/outliner.js"></script>
 	</head>
 	<!--  <body>  --> 
 	<body>
@@ -19,13 +19,13 @@
 				<h1>{{ page.title }}</h1>
 				</header>
 				<nav id="real_nav">
-					<span><a title="home" class="" href="/">home</a></span>
-					<span><a title="categories" class="" href="/categories/">categories</a></span>
-					<span><a title="tags" class="" href="/tags/">tags</a></span>
-					<span><a title="tools" class="" href="/tools/" >tools</a></span> 
-					<span><a title="collection" class="" href="/collection/" >Collection</a></span> 
-					<span><a title="work" class="" href="/work/" >work</a></span> 
-					<span><a title="about" class="" href="/about/">about</a></span>
+					<span><a title="home" class="" href="{{ site.baseurl }}/">home</a></span>
+					<span><a title="categories" class="" href="{{ site.baseurl }}/categories/">categories</a></span>
+					<span><a title="tags" class="" href="{{ site.baseurl }}/tags/">tags</a></span>
+					<span><a title="tools" class="" href="{{ site.baseurl }}/tools/" >tools</a></span> 
+					<span><a title="collection" class="" href="{{ site.baseurl }}/collection/" >Collection</a></span> 
+					<span><a title="work" class="" href="{{ site.baseurl }}/work/" >work</a></span> 
+					<span><a title="about" class="" href="{{ site.baseurl }}/about/">about</a></span>
 
 					<div>
 					</div>
@@ -34,18 +34,18 @@
 				{{ content }}
 				</article>
 				<a style="position:fixed;bottom:5px;right:5px;" href="#" title="Back to Top">
-					<img src="/media/btt.png" />
+					<img src="{{ site.baseurl }}/media/btt.png" />
 				</a> 
 			</div>
 			<footer>
 				<p><small>
 						<a href="http://github.com/zasfe/Today-I-learned/new/master/_posts" target="_blank" title="기사쓰기">New</a>
 						&nbsp;|&nbsp;
-						<a href="http://github.com/zasfe/Today-I-learned/edit/master/{{ page.path }}" target="_blank" title="编辑页面">Edit</a>&nbsp;|&nbsp;
+						<a href="http://github.com/zasfe/Today-I-learned/edit/master/{{ page.path }}" target="_blank" title="내용수정">Edit</a>&nbsp;|&nbsp;
 						Powered by 
 						<a href="http://jekyllrb.com" target="_blank">Jekyll</a> 
 						@ 
-						<a href="http://github.com/Today-I-learned" target="_blank" title="프로젝트 페이지">GitHub</a> | Copyright 2019 - {{site.time | date:"%Y"}} by 
+						<a href="http://github.com/zasfe/Today-I-learned" target="_blank" title="프로젝트 페이지">GitHub</a> | Copyright 2019 - {{site.time | date:"%Y"}} by 
 						<a href="/about/">zasfe</a>
 					</small>
 				</p>
