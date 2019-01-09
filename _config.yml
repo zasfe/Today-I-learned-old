@@ -10,5 +10,7 @@ about: "just a software enginer of web .
 I love it ."
 permalink: /:title/
 highlighter: rouge
+kramdown:
+  input: GFM
 safe: true
 paginate: 20
