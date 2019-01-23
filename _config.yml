@@ -1,5 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/Today-I-learned"
+githuburl: "http://github.com/zasfe"
 url: ''
 title: "Zasfe's TIL (Today-I-learned)"
 description: "A website with blog posts and pages" # used by search engines
