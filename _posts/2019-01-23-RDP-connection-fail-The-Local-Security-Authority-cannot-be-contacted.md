@@ -45,3 +45,7 @@ tags:
 
 참고: 재시작 없이 즉시 적용됩니다.
 
+
+## 참고
+
+* [Windows Server 2008 r 2를 실행 하는 원격 데스크톱 서버에 RDP 연결을 사용 하 여 메시지 '는 로컬 보안 기관에 연결할 수 없습니다' 실패할 수 있습니다.](https://support.microsoft.com/ko-kr/help/2493594/rdp-connection-to-remote-desktop-server-running-windows-server-2008-r2)
